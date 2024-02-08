@@ -3,24 +3,24 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER || "923184070915"  // Make SURE its Not Be Empty, Else Bot Stoped And Errors,
+global.owner = process.env.OWNER_NUMBER || "237697258114"  // Make SURE its Not Be Empty, Else Bot Stoped And Errors,
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://salmanahmad:s4salmanyt@cluster0.szcj2eo.mongodb.net/?retryWrites=true&w=majority"
 global.port= process.env.PORT || 5000
-global.email = 'xheikhsalman4422@gmail.com'
+global.email = 'edouardticky6@gmail.com'
 global.github = 'https://github.com/salmanytofficial/XLICON-MD'
-global.location = 'Lahore Pak'
-global.gurl = 'https://instagram.com/itz_shaikho/' // add your username
-global.sudo = process.env.SUDO || '923184070915' 
-global.devs = '923184070915';
-global.website = 'https://github.com/salmanytofficial/XLICON-MD' //wa.me/+91000000000000
+global.location = 'CAMEROUN 
+global.gurl = 'https://instagram.com/TEF/' // add your username
+global.sudo = process.env.SUDO || '237697258114' 
+global.devs = '237697258114';
+global.website = 'https://github.com/salmanytofficial/XLICON-MD' //wa.me/+237697258114
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/3c341828d86ee7a89c73f.jpg'
 module.exports = {
-  sessionName:  process.env.SESSION_ID ||  " ",  //PUT Session Id Here, 
-  author:  process.env.PACK_AUTHER ||  '',
-  packname:  process.env.PACK_NAME || '',
+  sessionName:  process.env.SESSION_ID ||  "eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiWU4zUTJGUEFuSTQwUVkyMktpZFRETXlTWHhYeE5PRVM3V3dRZTVDQU1Haz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiSENCN05BM01yUVAxdDlrYlVUMmJiUHUzZlE3NzlJYWtJV1oyVU81SmppST0ifX0sInNpZ25lZElkZW50aXR5S2V5Ijp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiI4SE85MmsyeWlReXlxMkR4SU42ZXRQWXVRcit6K3MxTXJpeXMyQmM2WW1zPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJuc2w2SDlSd2ErQjBaM3RBc2V0Y2YrUk1PSW95czRIWWRuTHNIM3J3RWlRPSJ9fSwic2lnbmVkUHJlS2V5Ijp7ImtleVBhaXIiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkNDTUZLRDFneXRHOE5UQTZRV1ppSklwSmtqQXpMTVRjdXlZQ0lTblFVRXc9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlpWL0JJQXUyRTk5NjdlK0cxREpIV0grT0x1cUNRV0xuYnh1d2tmbjk1MW89In19LCJzaWduYXR1cmUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiIzdlYzTjUzVWVHY0l1SFV0UmwzZlN1OXhIb3M2dWNPQ3NpdjB2MTlWRlJONUtKMW8rN2dXZlFsZXpKaEtrYmpOemxCTG4wNDJ3elZ3Vm5LVFMydTJoZz09In0sImtleUlkIjoxfSwicmVnaXN0cmF0aW9uSWQiOjI2LCJhZHZTZWNyZXRLZXkiOiJaZlpiTEVnZjlZOU5wbE1YOWlkK3gybjRWeGFlU2NINFZPQjE5MnRScndjPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiJqbnowMzNoZlNlcVpLeTBOYU1zYUFBIiwicGhvbmVJZCI6IjllYmFjNWIxLTU3ZWYtNDkxYi05NjZmLTNkMDQ1MGNiYTU1MSIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJ4eTUzZzJMNGs3Y0tTRmxrL1FEdU8rSE5zaVE9In0sInJlZ2lzdGVyZWQiOmZhbHNlLCJiYWNrdXBUb2tlbiI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjQwcExuM0srbFpXZ2tlMTVoYlljaThxeVVJRT0ifSwicmVnaXN0cmF0aW9uIjp7fSwiYWNjb3VudCI6eyJkZXRhaWxzIjoiQ082UmdlSUdFTy9LazY0R0dBUWdBQ2dBIiwiYWNjb3VudFNpZ25hdHVyZUtleSI6IkRxWDhWQTFDYXgwcFJ0amFuUy9Ea21Dc2U4bGJtKzZ2UkxaeTlIdmsza0E9IiwiYWNjb3VudFNpZ25hdHVyZSI6ImVGbDRJbzZGdDB1eVRuY2pPMGZUamRWY1JYQ2czVFBTTlczaG5CelAxSVF3UHhRMlVtSUt6WWZmOTRyOGV0emRlY0NiTnJFZTAzMlN2S25jQkM0Y0JBPT0iLCJkZXZpY2VTaWduYXR1cmUiOiJ1S3RBNlUweThxdW1TaDUwTU1QakFUSWI5UHdGS0pUTTZnTkNxcXB2ZUVScE5UU1p2aHkxbnRnZ2d1ajBSS0Z6OFRGcDh0Y01aUjdWR1RDaDJOVFloQT09In0sIm1lIjp7ImlkIjoiMjM3Njk3MjU4MTE0OjlAcy53aGF0c2FwcC5uZXQifSwic2lnbmFsSWRlbnRpdGllcyI6W3siaWRlbnRpZmllciI6eyJuYW1lIjoiMjM3Njk3MjU4MTE0OjlAcy53aGF0c2FwcC5uZXQiLCJkZXZpY2VJZCI6MH0sImlkZW50aWZpZXJLZXkiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJCUTZsL0ZRTlFtc2RLVWJZMnAwdnc1SmdySHZKVzV2dXIwUzJjdlI3NU41QSJ9fV0sInBsYXRmb3JtIjoiYW5kcm9pZCIsImxhc3RBY2NvdW50U3luY1RpbWVzdGFtcCI6MTcwNzQwMjYxMH0= ",  //PUT Session Id Here, 
+  author:  process.env.PACK_AUTHER ||  'Tef',
+  packname:  process.env.PACK_NAME || 'Tef',
    
   botname:   process.env.BOT_NAME === undefined ? "Xlicon-Md" : process.env.BOT_NAME,
-  ownername: process.env.OWNER_NAME === undefined ? 'salmanytofficial' : process.env.OWNER_NAME,  
+  ownername: process.env.OWNER_NAME === undefined ? 'Tef' : process.env.OWNER_NAME,  
   auto_read_status :  process.env.AUTO_READ_STATUS === undefined ? false : process.env.AUTO_READ_STATUS,
   autoreaction:  process.env.AUTO_REACTION  === undefined ? false : process.env.AUTO_REACTION ,
   antibadword :  process.env.ANTI_BAD_WORD === undefined ? 'nbwoed' : process.env.ANTI_BAD_WORD,
